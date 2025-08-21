@@ -1,0 +1,57 @@
+<div class="heading">
+    <p>{{company_name}}</p>
+    <p><b>Invoice No:</b> {{invoice_number}}</p>
+</div>
+
+<h1>INVOICE</h1>
+
+<p class="date"><b>Date:</b> {{date}}</p>
+
+<div class="addresses">
+    <div>
+        <h4>Billed To:</h4>
+        <p>{{customer_name}}</p>
+        <p>{{customer_address}}</p>
+        <p>{{customer_email}}</p>
+    </div>
+    <div>
+        <h4>From:</h4>
+        <p>{{company_name}}</p>
+        <p>{{company_address}}</p>
+        <p>{{company_email}}</p>
+    </div>
+</div>
+<table>
+    <tbody>
+        <tr>
+            <td>Item</td>
+            <td>Quantity</td>
+            <td>Unit Price</td>
+            <td>Total Price</td>
+        </tr>
+        {% for item,quantity,price,full_price in items %}
+        <tr>
+            <td>{{item}}</td>
+            <td>{{quantity}}</td>
+            <td>{{price}}</td>
+            <td>{{full_price}}</td>
+        </tr>
+        {% endfor %}
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Total</td>
+            <td>{{total}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="notes">
+  <h4>Notes:</h4>
+  <p>{{notes}}</p>
+</div>
+
+<div class="footer">
+    <p><b>Payment Method:</b> {{payment_method}}</p>
+    <p><b>Account Number:</b> {{account_number}}</p>
+</div>
