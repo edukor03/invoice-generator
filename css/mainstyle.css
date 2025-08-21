@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+}
+
+.heading {
+    width: 100%;
+}
+
+.heading p {
+    display: inline;
+}
+
+.heading p:first-child {
+    float: left;
+}
+
+.heading p:last-child {
+    float: right
+}
+
+h1 {
+    padding-top: 40px;
+    font-size: 80px;
+}
+
+.date {
+    margin-top: 30px;
+}
+
+.addresses {
+    width: 100%;
+    padding-top: 10px
+}
+
+.addresses div:first-child {
+    float: left;
+    width: 50%;
+}
+
+.addresses div:last-child {
+    float: right;
+    width: 50%;
+}
+
+table {
+    padding-top: 30px;
+    width: 100%;
+    border-spacing: 0px;
+}
+
+table tr:first-child td {
+    background-color: lightgray;
+}
+
+table tr:last-child td {
+    border-top: 2px lightgrey solid;
+    border-bottom: 2px lightgrey solid;
+}
+
+.notes {
+    margin-top: 30px;
+    padding: 10px 10px;
+    width: 97%;
+    height: 70px;
+    border: 2px lightgrey solid;
+}
+
+.footer {
+    margin-top: 30px;
+}
