@@ -1,0 +1,12 @@
+Invoice Number,Date,Company Name,Company Address,Company Email,Customer Name,Customer Address,Customer Email,Item Description,Quantity,Unit Price,Total,Notes
+INV-001,2025-08-20,My Company Ltd,"123 Business St, Springfield, IL, USA",info@company.com,John Doe,"456 Elm St, Springfield, IL, USA",john.doe@example.com,Product A,2,50,100,Payment due within 30 days
+INV-001,2025-08-20,My Company Ltd,"123 Business St, Springfield, IL, USA",info@company.com,John Doe,"456 Elm St, Springfield, IL, USA",john.doe@example.com,Product B,1,150,150,Payment due within 30 days
+INV-001,2025-08-20,My Company Ltd,"123 Business St, Springfield, IL, USA",info@company.com,John Doe,"456 Elm St, Springfield, IL, USA",john.doe@example.com,Product C,3,30,90,Payment due within 30 days
+INV-002,2025-08-21,My Company Ltd,"123 Business St, Springfield, IL, USA",info@company.com,Jane Smith,"789 Oak Ave, Chicago, IL, USA",jane.smith@example.com,Service A,1,200,200,Payment due within 15 days
+INV-002,2025-08-21,My Company Ltd,"123 Business St, Springfield, IL, USA",info@company.com,Jane Smith,"789 Oak Ave, Chicago, IL, USA",jane.smith@example.com,Service B,2,75,150,Payment due within 15 days
+INV-002,2025-08-21,My Company Ltd,"123 Business St, Springfield, IL, USA",info@company.com,Jane Smith,"789 Oak Ave, Chicago, IL, USA",jane.smith@example.com,Service C,1,100,100,Payment due within 15 days
+INV-002,2025-08-21,My Company Ltd,"123 Business St, Springfield, IL, USA",info@company.com,Jane Smith,"789 Oak Ave, Chicago, IL, USA",jane.smith@example.com,Service D,3,50,150,Payment due within 15 days
+INV-003,2025-08-22,My Company Ltd,"123 Business St, Springfield, IL, USA",info@company.com,Bob Johnson,"321 Pine Rd, Naperville, IL, USA",bob.johnson@example.com,Item A,5,20,100,Payment due within 30 days
+INV-003,2025-08-22,My Company Ltd,"123 Business St, Springfield, IL, USA",info@company.com,Bob Johnson,"321 Pine Rd, Naperville, IL, USA",bob.johnson@example.com,Item B,2,75,150,Payment due within 30 days
+INV-003,2025-08-22,My Company Ltd,"123 Business St, Springfield, IL, USA",info@company.com,Bob Johnson,"321 Pine Rd, Naperville, IL, USA",bob.johnson@example.com,Item C,1,200,200,Payment due within 30 days
+INV-003,2025-08-22,My Company Ltd,"123 Business St, Springfield, IL, USA",info@company.com,Bob Johnson,"321 Pine Rd, Naperville, IL, USA",bob.johnson@example.com,Item D,4,25,100,Payment due within 30 days
