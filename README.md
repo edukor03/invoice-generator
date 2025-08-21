@@ -1,6 +1,6 @@
 # Invoice Generator
 
-Python script that automates Invoice creation using PDFkit and jinja2 libraries. The jinja2 was used to create HTML layout for the PDF document that can accept python variables. PDFkit was used to convert HTML file into PDF file using tool called "Wkhtmltopdf". It can accept multiple invoices in the same file, it will seperate them and generate a pdf file for each invoice.
+Python script that automates Invoice creation using PDFkit and jinja2 libraries. The jinja2 was used to create HTML layout for the PDF document that can accept python variables. PDFkit was used to convert HTML file into PDF file using tool called "Wkhtmltopdf". This script can accept multiple invoices in the same file, it will seperate them and generate a pdf file for each invoice.
 
 > [!IMPORTANT]
 > I will be happy for any suggestions for improvements :)
